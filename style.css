@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding:2px;
+}
+/* About Me  */
+.aboutMe{
+    background-color: powderblue;
+    text-align: center;
+    padding: 20px 10px;
+}
+.aboutMe img{
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid blue;
+}
+.aboutMe p{
+    text-align: center;
+    padding: 10px 60px;
+}
+
+/* My Skills  */
+.mySkill-main{
+    background-color: aquamarine;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 0;
+}
+#mySkills{
+    border: 0.5px solid black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5px;
+    width: 180px;
+    text-decoration: none;
+    margin: 10px;
+    display:inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+#mySkills:hover{
+    background-color: rgb(60, 190, 223);
+    color: black;
+    transition-duration: 0.3s;
+    border: none;
+}
+/* My Skills Images  */
+.mySkill-main img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 70px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px black;
+}
+.mySkill-main img:hover{
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px 3px rgb(241, 10, 10);
+    opacity: 0.5;
+}
+.my-skills1{
+    background-color: blue;
+    color: white;
+}    
+    .my-skills2{
+    background-color: green;
+    color: white;
+    margin-left: 60px;
+}
+.my-skills3{
+    background-color: indigo;
+    color: white;
+
+}
+/* Check Result  */
+.check-result{
+    background-color: rgb(185, 238, 185);
+    padding: 40px 10px;
+    text-align: center;
+}
+.check-result-a{
+    text-decoration: none;
+    color: balck;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 3px red;
+    border-radius: 4px;
+}
+.check-result-a:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 1px 0px 3px black;
+
+}
+.check-result img{
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px  black;
+}
+.check-result img:hover{
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+/* Experience  */
+.experience{
+    background-color: rgb(247, 192, 125);
+    padding: 2px;
+    /* text-align: center; */
+}
+.experience h1{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
+
+/* Block Quote Patric Result */
+.block-quote{
+    background-color: rgb(204, 194, 214);
+    padding: 20px 10px;
+    margin: 0;
+}
+/* Result Card  */
+.matricResult{
+   
+    font-size: smaller;
+    background-color: rgb(204, 194, 214);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px wheat;
+    padding: 15px;
+}
+.matricResult table{
+     border-collapse: collapse;
+     background-color: aquamarine;
+}
+.matricResult th,td{
+    border: 1px solid black;
+    padding: 3px;
+}
